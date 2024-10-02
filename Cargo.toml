@@ -12,3 +12,7 @@ edition = "2021"
 [dependencies]
 base32 = "0.5.1"
 ring = "0.17.8"
+
+[dev-dependencies]
+clap = { version = "4.5.19", features = ["derive"] }
+rand = "0.8.5"
